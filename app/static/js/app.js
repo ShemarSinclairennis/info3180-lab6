@@ -1,4 +1,17 @@
 /* Add your Application JavaScript */
+Vue.component('news-list',{
+    template:
+        <div class="news">
+            <h2>News</h2>
+            <ul class="news__list">
+                <li class="news__item">Newsitem 1</li>
+                <li class="news__item">Newsitem 2</li>
+                <li class="news__item">Newsitem 3</li>
+            </ul>
+            
+        </div>
+    });
+
 Vue.component('app-header', {
     template: `
         <header>
